@@ -19,4 +19,8 @@ module.exports = {
 		opacity: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
 		extend: {},
 	},
+	plugins: [
+		require('@tailwindcss/forms'),
+		// ...
+	],
 };
